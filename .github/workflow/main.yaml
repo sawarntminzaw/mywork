@@ -1,8 +1,7 @@
 name: My First Workflow
 
 #trigger 
-on:
-- push
+on: [push]
 
 #Jobs in the workflow
 jobs:
