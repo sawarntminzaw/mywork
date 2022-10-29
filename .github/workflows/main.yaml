@@ -14,5 +14,5 @@ jobs:
     - name: echo the date
       run: echo "The current time and date in GitHub is $(date)"
     - name: echo information about the contex
-      run: echo "head_ref - ${(github.head_ref)}, owner - ${(github.repository_owner)}"
+      run: echo "head_ref - ${{ github.head_ref }}, owner - ${{github.repository_owner}}"
 
